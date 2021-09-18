@@ -1,0 +1,182 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #411678 !important;
+  opacity: 1;
+}
+
+.sectioncolor {
+  background-color: #F8F8FB;
+  height:100%;
+}
+.features{
+  border-radius:8px;
+  height: 100%;
+}
+
+.courses{
+  background-color: #F8F8FB;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.contacticon{
+  background-color: #411678; 
+  border-radius: 8px; 
+  text-align: center;
+  height: auto;
+}
+.contact{
+  background-color: #411678; 
+  border-radius:8px;
+  height: 100%;
+  /* border: 4px solid #c432b9; */
+}
+.successcard{
+  background-color: #F8F8FB;
+  border-radius:8px;
+  height: 100%;
+}
+.coursetext{
+  text-align: left;
+}
+.contacticon{
+  margin: 15px;
+}
+.navbar{
+  background-color: #553fa8 !important;
+  /* margin-top: 0px !important; */
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.navbar img{
+  border-radius: 50%;
+}
+.custom-toggler {
+  background-color: #411578;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: none;
+  opacity: 1;
+}
+.footer{
+  background-color: #411578;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #00488c;
+  color: white;
+}
+
+hr {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  width: 10%;
+  color: #00488c;
+  opacity: 1;
+}
+.btn {
+  
+  border: none !important;
+  background-color: #0D6EFD;
+  
+}
+.btn:hover{
+  background-color: #411678 !important;
+  
+}
+
+.formbtn:hover{
+  background-color: white !important;
+  color: #411678 !important;
+  border: 2px solid purple;
+  font-weight: bold;
+}
+.arrow {
+  position: relative;
+}
+
+.arrowIcon {
+  position: absolute;
+  right: -13px;
+  top: 40%;
+  z-index: 10;
+  color: white;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 5px 5px;
+  transform: scale(1.5);
+  border-radius: 50%;
+  background-color: #004382;
+  font-weight: bolder;
+}
+
+.nav-link{
+  color: white !important;
+  font: 1em sans-serif;
+  font-weight:bold !important;
+  /* font-size: 18px; */
+
+}
+.carousel {
+  width: 70%;
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .arrowIcon {
+    top: 90%;
+    left: 50%;
+    right: 50%;
+    transform: scale(1.2) rotate(90deg);
+  }
+  .contacticon{
+    height: 50%;
+    width: 30%;
+    margin: 0 auto;
+    /* padding-top: 2px; */
+    /* justify-items: center; */
+    /* margin: auto; */
+    
+  }
+  .svgicon{
+    height: 50px;
+    width: 50px;
+  }
+  .contact-div-body {
+    text-align: center;
+  }
+  .btn{
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .contact input{
+    margin-bottom: 15px;
+    /* margin-top: 15px; */
+  }
+  .container-fluid{
+    margin-top: 20px;;
+  }
+  .jaourney-card{
+    text-align: center;
+  }
+}
